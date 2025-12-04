@@ -339,32 +339,6 @@ namespace Logo
             }
         }
 
-        //private void HighlightContainer(Grid? container)
-        //{
-        //    if (container == null)
-        //        return;
-        //    TextBox? tb = null;
-        //    foreach (var child in container.Children)
-        //    {
-        //        if (child is TextBox)
-        //        {
-        //            tb = child as TextBox;
-        //            break;
-        //        }
-        //    }
-
-        //    tb.CaretIndex = tb.Text.Length;
-        //    tb.Focus();
-        //    foreach (var child in DesignCanvas.Children)
-        //    {
-        //        if (child is Grid grid)
-        //        {
-        //            grid.Margin = new Thickness(0);
-        //        }
-        //    }
-        //    container.Margin = new Thickness(5);
-
-        //}
     }
 }
 
