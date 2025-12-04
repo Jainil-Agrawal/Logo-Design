@@ -7,7 +7,7 @@ namespace Logo
 {
     public partial class MainWindow : Window
     {
-    //comment added
+
         private Image? selectedImage;
         private Grid? selectedContainer;
         private Grid? selectContainer;
